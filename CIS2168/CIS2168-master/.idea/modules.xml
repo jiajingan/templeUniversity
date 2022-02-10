@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CIS2168.iml" filepath="$PROJECT_DIR$/CIS2168.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cheater's_Hangman/Cheater's_Hangman.iml" filepath="$PROJECT_DIR$/Cheater's_Hangman/Cheater's_Hangman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JProblem/JProblem.iml" filepath="$PROJECT_DIR$/JProblem/JProblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maze/Maze.iml" filepath="$PROJECT_DIR$/Maze/Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arraylist/arraylist.iml" filepath="$PROJECT_DIR$/arraylist/arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigo/bigo.iml" filepath="$PROJECT_DIR$/bigo/bigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam2/exam2.iml" filepath="$PROJECT_DIR$/exam2/exam2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hunt/hunt.iml" filepath="$PROJECT_DIR$/hunt/hunt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/password/password.iml" filepath="$PROJECT_DIR$/password/password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regex/regex.iml" filepath="$PROJECT_DIR$/regex/regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trees/trees.iml" filepath="$PROJECT_DIR$/trees/trees.iml" />
+    </modules>
+  </component>
+</project>

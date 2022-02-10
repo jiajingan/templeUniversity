@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CIS2107"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\assignment1\;CMake Files\assignment2\;CMake Files\assignment4\;CMake Files\assignment6\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment1">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 assignment1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment1/fast">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 assignment1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment2">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 assignment2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment2/fast">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 assignment2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment4">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 assignment4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment4/fast">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 assignment4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment6">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/assignment6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 assignment6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment6/fast">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/assignment6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 assignment6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment1/main.c">
+			<Option target="assignment1"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment2/main.c">
+			<Option target="assignment2"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment4/main.c">
+			<Option target="assignment4"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/all_letters.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/capitalize.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/dedup.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/diff.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/ends_with_ignore_case.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/find.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/is_empty.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/len_diff.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/main.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/num_in_range.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/pad.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/ptr_to.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/repeat.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/replace.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/rm_empties.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/rm_left_space.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/rm_right_space.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/rm_space.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/shorten.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/str_chop_all.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/str_connect.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/str_len.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/str_zip.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/strcmp_ign_case.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/take_last.c">
+			<Option target="assignment6"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/test/test.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment1\"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment2\"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment4\"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/assignment6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment6\"/>
+		</Unit>
+		<Unit filename="/Users/jackiegan/CLionProjects/CIS2107/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

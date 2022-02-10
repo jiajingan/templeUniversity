@@ -1,0 +1,17 @@
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment1/CMakeFiles/assignment1.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment2/CMakeFiles/assignment2.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment4/CMakeFiles/assignment4.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/assignment6/CMakeFiles/assignment6.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/jackiegan/CLionProjects/CIS2107/cmake-build-debug/test/CMakeFiles/test.dir
