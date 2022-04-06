@@ -8,6 +8,7 @@ close all
 clear
 clc
 
-%Backward difference methods
-m=3; T=0.1; N=2;
+%Backward difference methods, Q2
 Freal = @(x,t)2*exp(-1*(pi^2/4)*t)*sin(2*pi*x);
+
+m=3; T=0.1; N=2;
