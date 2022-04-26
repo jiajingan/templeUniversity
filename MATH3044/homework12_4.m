@@ -1,6 +1,9 @@
 %Jackie Gan
 %MATH 3044
 %Homework12_4, An Introduction to the Finite-Element Method
+
+format long
+
 close all
 clear
 clc
@@ -89,3 +92,8 @@ for i=n-1:-1:1
     c(i)=z(i)-zeta(i)*c(i+1);
     disp(c(i))
 end
+h=1/20;
+f = @(x)sin(x);
+t = 0:.1:1;
+u0=0;
+

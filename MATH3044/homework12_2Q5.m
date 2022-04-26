@@ -22,12 +22,12 @@ ux = @(x) sin(2*pi*x);
 l=2;
 T=2;
 N=1;
-m=3;
+m=10;
 
 alpha = 0.5;
-
+%m=m-1; N=N-1;
 h = l/m; k = T/N; lambda = (alpha*alpha*k)/(h*h);
-%w = zeros(m,N);
+w = zeros(m+1,N+1);
 
 for i=1:m-1
     w(i,1) = ux(i*h);
@@ -44,7 +44,7 @@ end
 l(m-1)=(1+lambda+(lambda*u(m-2)))/2;
 for j=1:N
     t(j)=j*k;
-    z(1)=(((1-lambda)*w(1,))*((lambda/2)*w(1,2)));
+    z(1)=(((1-lambda)*w(1,1))*((lambda/2)*w(1,2)))/l(1);    
     for i = 2:m-1
         z(i)=(((1-lambda)*w(i,j))+((lambda/2)*(w(i+1,j)+w(i-1,j)+z(i-1))))/l(i);
     end
@@ -58,6 +58,9 @@ for j=1:N
         fprintf("x:%0.2f,\t w:%0.4f\n",x,w(i,j));
     end
 end
-
-
+%real solution solved to compare
+tspan = [0 2];
+y0 = 0.5;
+[t,y] = ode45(@(x,t)exp(-4*pi*pi*t)*sin(2*pi*x), tspan, y0);
+plot(t,y,'-o')
 
