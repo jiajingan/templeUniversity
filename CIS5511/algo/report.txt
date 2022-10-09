@@ -1,0 +1,35 @@
+random list size:10
+insertion sort time:5.9604644775390625e-06
+merge sort time:2.09808349609375e-05
+quick-hoare sort time:1.0967254638671875e-05
+quick-lomuto sort time:6.9141387939453125e-06
+counting sort time:6.9141387939453125e-06
+
+random list size:1000
+insertion sort time:0.0275418758392334
+merge sort time:0.0022559165954589844
+quick-hoare sort time:0.0011279582977294922
+quick-lomuto sort time:0.0011017322540283203
+counting sort time:0.00026106834411621094
+
+random list size:5000
+insertion sort time:0.4400451183319092
+merge sort time:0.00877523422241211
+quick-hoare sort time:0.005277872085571289
+quick-lomuto sort time:0.005160093307495117
+counting sort time:0.0009670257568359375
+
+random list size:10000
+insertion sort time:1.7467339038848877
+merge sort time:0.01909780502319336
+quick-hoare sort time:0.011923789978027344
+quick-lomuto sort time:0.011385202407836914
+counting sort time:0.002026081085205078
+
+random list size:20000
+insertion sort time:7.176667213439941
+merge sort time:0.041419029235839844
+quick-hoare sort time:0.02498602867126465
+quick-lomuto sort time:0.02370905876159668
+counting sort time:0.003981828689575195
+
