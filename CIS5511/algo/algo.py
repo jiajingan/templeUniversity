@@ -120,13 +120,13 @@ def randomNumLists(n):
 def sortingTime(n):
     #get random list
     a= randomNumLists(n)
-    print(f'random list size:{n}')
+    print(f'random list size: {n}')
     #insertion sort
     insertArr = a[:]
     start = time.time()
     insertionSort(insertArr)
     end = time.time()
-    print(f'insertion sort time:{end-start}')
+    print(f'insertion sort time: {end-start}seconds')
     # print(insertArr)
     
     #merge sort
@@ -134,7 +134,7 @@ def sortingTime(n):
     start = time.time()
     mergeSort(mergeArr,0,len(mergeArr)-1)
     end = time.time()
-    print(f'merge sort time:{end-start}')
+    print(f'merge sort time: {end-start}seconds')
     # print(mergeArr)
     
     #quickSort Hoare
@@ -142,7 +142,7 @@ def sortingTime(n):
     start = time.time()
     quickSortHoare(hoareArr,0,len(hoareArr)-1)
     end = time.time()
-    print(f'quick-hoare sort time:{end-start}')
+    print(f'quick-hoare sort time: {end-start}seconds')
     # print(hoareArr)
 
     #quicksort Lomuto
@@ -150,7 +150,7 @@ def sortingTime(n):
     start = time.time()
     quickSortLomuto(lomutoArr,0,len(lomutoArr)-1)
     end = time.time()
-    print(f'quick-lomuto sort time:{end-start}')
+    print(f'quick-lomuto sort time: {end-start}seconds')
     # print(lomutoArr)
     
     #counting sort
@@ -158,7 +158,7 @@ def sortingTime(n):
     start = time.time()
     c=countingSort(countArr)
     end = time.time()
-    print(f'counting sort time:{end-start}')
+    print(f'counting sort time: {end-start}seconds')
     # print(c)
     
     # check if the original arr was influenced
