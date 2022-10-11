@@ -6,11 +6,15 @@ import time
 
 def insertionSort(A):
     for i in range(1, len(A)): 
+        # select key 
         key = A[i] 
         j = i-1
         while j >=0 and key < A[j] : 
+            # Compare key
+                # insert new element
                 A[j+1] = A[j] 
                 j -= 1
+        # swap to get new key
         A[j+1] = key
 # Time Complexity = O(n^2) because of two loops (for loop and while loop)
 # Space Complexity = O(1) nothing was stored in memory
@@ -22,11 +26,11 @@ def merge(A, p, q, r):
     j = 0
     k = p
     while i < len(L) and j < len(R):
-        if(L[i] < R[j]):
+        if(L[i] < R[j]): #sort left
             A[k] = L[i]
             i += 1
         else:
-            A[k] = R[j]
+            A[k] = R[j] #sort right
             j += 1
         k += 1
     if(j == len(R)):
@@ -36,10 +40,10 @@ def mergeSort(A,p,r):
     # p = 0
     # r = len(A)-1
     if(p < r):
-        q = math.floor((p+r)/2)
-        mergeSort(A, p, q)
-        mergeSort(A, q+1, r)
-        merge(A, p, q, r)
+        q = math.floor((p+r)/2)#divide the array by half
+        mergeSort(A, p, q)#sort sub array left
+        mergeSort(A, q+1, r)#sort sub array right
+        merge(A, p, q, r) # merge 
     # else:
     #     return A
 
@@ -58,8 +62,8 @@ def partitionLomuto(A,p,r):
 def quickSortLomuto(A,p,r):
     if p < r:
         q = partitionLomuto(A,p,r)
-        quickSortLomuto(A,p,q-1)
-        quickSortLomuto(A,q+1,r)
+        quickSortLomuto(A,p,q-1) #left pivot check
+        quickSortLomuto(A,q+1,r) #right pivot check
     else:
         return A
 # Time Complexity = O(nlogn) due to recursion + divide and conquer
@@ -71,14 +75,17 @@ def partitionHoare(A,p,r):
     j = r+1
     while True:
         while True:
+            #check left of the pivot
             if A[j] <= pivot:
                 break
             j -= 1
         while True:
+            #check right of the pivot
             if A[i] >= pivot:
                 break
             i += 1
         if i < j:
+            #swap i and j
             A[i],A[j] = A[j], A[i]
         else:
             return j
@@ -86,23 +93,27 @@ def partitionHoare(A,p,r):
 def quickSortHoare(A,p,r):
     if p < r:
         q = partitionLomuto(A,p,r)
-        quickSortLomuto(A,p,q)
-        quickSortLomuto(A,q+1,r)
+        quickSortLomuto(A,p,q) # pivot check 
+        quickSortLomuto(A,q+1,r) # right pivot check
         
 # Time Complexity = O(nlogn) due to recursion + divide and conquer
 # Space Complexity = O(logn) It calls the recursion logn times
 
 def countingSort(A):
+    #generate a counting array and return sorting array
     counts = [0 for _ in range(max(A) + 1)]
     sortedArr = [0 for _ in range(len(A))]
     
     for element in A:
+        #count the array elements
         counts[element] += 1
 
     for index in range(1, len(counts)):
+        #iterate to add the count array index
         counts[index] = counts[index] + counts[index - 1]
 
     for element in A:
+        # use count array to sort 
         counts[element] -= 1
         sortedArr[counts[element]] = element
 
@@ -112,6 +123,7 @@ def countingSort(A):
 
 
 def randomNumLists(n):
+    #generate random list
     inList = []
     for _ in range(n):
         inList.append(random.randint(0,n))
@@ -168,3 +180,5 @@ listLength = [10,1000,5000,10000,20000]
 for i in listLength:
     sortingTime(i)
     print()
+    
+# run `python3 algo.py > report.txt` to generate report
