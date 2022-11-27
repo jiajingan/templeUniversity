@@ -10,6 +10,8 @@ numpy = "*"
 matplotlib = "*"
 scikit-learn = "*"
 seaborn = "*"
+keras = "*"
+tensorflow-macos = "*"
 
 [dev-packages]
 
