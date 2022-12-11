@@ -1,0 +1,3 @@
+[submodule "CIS5526/project"]
+	path = CIS5526/project
+	url = https://github.com/jiajingan/Kaggle-Forecasting-Store-Sales.git
