@@ -12,6 +12,8 @@ scikit-learn = "*"
 seaborn = "*"
 keras = "*"
 tensorflow-macos = "*"
+statsmodels = "*"
+xgboost = "*"
 
 [dev-packages]
 
