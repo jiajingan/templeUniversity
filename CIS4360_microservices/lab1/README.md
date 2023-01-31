@@ -4,11 +4,11 @@ Carl Williams
 
 In this assignment, we will start Google Cloud Platform (GCP) and go over basic linux commands. <br />
 <br />(a)
-![](img\billing_screen.png)
+![](img/billing_screen.png)
 <br />(b)
-![](img\shell.png)
+![](img/shell.png)
 <br />(c)
-![](img\commands.png)
+![](img/commands.png)
 linux commands:
 - ls (list), this command list the current working directory
     - every time in GCP we type 'ls' it will print all current dir
@@ -25,4 +25,4 @@ linux commands:
 - echo [text], will just echo the text and print out the text
 
 <br />(d)
-![](img\GCP_tutorial.png)
+![](img/GCP_tutorial.png)
